@@ -15,6 +15,17 @@ cd "프로젝트 이름"
 git init
 ```
 
+- 원격 저장소 연결
+```sh
+git remote add origin https://github.com/ssorry123/GIT.git
+git remote -v
+// origin  https://github.com/ssorry123/GIT.git (fetch)
+// origin  https://github.com/ssorry123/GIT.git (push)
+git pull origin master
+```
+pull & fetch 차이  
+https://joont92.github.io/git/fetch-pull-%EC%B0%A8%EC%9D%B4/
+
 ---
 
 <br>
